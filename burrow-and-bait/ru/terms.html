@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ru" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#FBF3E2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1E1610" media="(prefers-color-scheme: dark)">
+<title>Условия использования — Burrow &amp; Bait</title>
+<meta name="description" content="Условия использования — Burrow &amp; Bait (LT24 App Maker). Последнее обновление: 2026-11-21.">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/icon-192.png">
+<style>
+:root{color-scheme:light dark;--bg:#FBF3E2;--surface:#FFFBF0;--surface2:#F0E2C8;--text:#3B2619;--muted:#6B5444;--primary:#A4491B;--primary-press:#8A3A12;--on-primary:#FFFBF0;--border:#E0CFAE;--border-strong:#8A7357;--focus:#1B5FB0}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1E1610;--surface:#2B2018;--surface2:#3A2D22;--text:#F3E6CC;--muted:#C2AE92;--primary:#F0A35E;--primary-press:#D98B45;--on-primary:#2B1708;--border:#4A3A2C;--border-strong:#8F7A5E;--focus:#8CC4FF}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:1rem/1.65 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Helvetica Neue",Arial,"Hiragino Sans","Yu Gothic UI","Malgun Gothic","PingFang SC","PingFang TC","Microsoft YaHei","Noto Sans Arabic","Noto Sans Devanagari",sans-serif;overflow-wrap:anywhere}
+a{color:var(--primary);text-decoration:underline;text-underline-offset:.15em}
+a:hover{color:var(--primary-press)}
+a:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:2px}
+.wrap{max-width:46rem;margin:0 auto;padding:0 16px}
+header.site{background:var(--surface);border-bottom:2px solid var(--text)}
+header.site .wrap{display:flex;align-items:center;gap:12px;padding-top:12px;padding-bottom:12px;flex-wrap:wrap}
+header.site img{width:48px;height:48px;border-radius:11px;border:2px solid var(--text);display:block}
+header.site .brand{font-weight:800;font-size:1.15rem;color:var(--text);text-decoration:none;margin-inline-end:auto}
+nav.pages{display:flex;gap:4px 8px;flex-wrap:wrap}
+nav.pages a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border:2px solid var(--border-strong);border-radius:10px;text-decoration:none;color:var(--text);background:var(--bg);font-size:.95rem}
+nav.pages a[aria-current=page]{background:var(--primary);border-color:var(--text);color:var(--on-primary);font-weight:700}
+main{padding:24px 0 8px}
+h1{font-size:1.6rem;line-height:1.25;margin:.2em 0 .6em}
+h2{font-size:1.2rem;line-height:1.3;margin:1.8em 0 .5em}
+p,ul{margin:.7em 0}
+ul{padding-inline-start:1.4em}
+li{margin:.3em 0}
+li>ul{margin:.3em 0}
+.meta{color:var(--muted);font-size:.95rem}
+.table-wrap{overflow-x:auto;margin:1em 0;border:1px solid var(--border-strong);border-radius:10px;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:.92rem;line-height:1.5;background:var(--surface)}
+th,td{padding:9px 10px;border-bottom:1px solid var(--border);vertical-align:top;text-align:start}
+thead th{background:var(--surface2);font-weight:700}
+tbody th{font-weight:600}
+tbody tr:last-child>*{border-bottom:0}
+bdi{white-space:nowrap}
+@media (max-width:44rem){.table-wrap{border:0;overflow:visible}table,tbody{display:block;background:transparent}thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}tr{display:block;margin:0 0 12px;background:var(--surface);border:1px solid var(--border-strong);border-radius:10px;overflow:hidden}tbody th,td{display:block;border-bottom:1px solid var(--border);padding:8px 12px}tbody th{background:var(--surface2);font-weight:700}tbody tr>*:last-child{border-bottom:0}td::before{content:attr(data-label);display:block;font-size:.8rem;font-weight:700;color:var(--muted);margin-bottom:2px}}
+nav.langs{margin:32px 0 8px;padding:16px 0;border-top:1px solid var(--border-strong)}
+nav.langs h2{font-size:1rem;margin:0 0 .5em}
+nav.langs ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:6px 8px}
+nav.langs a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border:1px solid var(--border-strong);border-radius:10px;text-decoration:none;color:var(--text);background:var(--surface)}
+nav.langs a[aria-current=true]{background:var(--surface2);font-weight:700;border-color:var(--text)}
+footer.site{border-top:1px solid var(--border);color:var(--muted);font-size:.9rem;padding:16px 0 32px}
+footer.site p{margin:.3em 0}
+.lede{font-size:1.05rem}
+.lang-list{list-style:none;padding:0;margin:1em 0}
+.lang-list li{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;padding:10px 12px;margin:8px 0;background:var(--surface);border:1px solid var(--border-strong);border-radius:12px}
+.lang-list .name{font-weight:700;min-width:9.5rem;flex:1 1 100%}
+.lang-list a{display:inline-flex;align-items:center;min-height:44px;padding:0 4px}
+@media (min-width:34rem){.lang-list .name{flex:0 0 11rem}}
+@media (max-width:420px){body{font-size:1rem}h1{font-size:1.4rem}}
+@media print{header.site nav,nav.langs{display:none}}
+</style>
+<link rel="alternate" hreflang="en" href="https://lt24appmaker.github.io/burrow-and-bait/en/terms.html">
+<link rel="alternate" hreflang="vi" href="https://lt24appmaker.github.io/burrow-and-bait/vi/terms.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://lt24appmaker.github.io/burrow-and-bait/zh-Hans/terms.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://lt24appmaker.github.io/burrow-and-bait/zh-Hant/terms.html">
+<link rel="alternate" hreflang="ja" href="https://lt24appmaker.github.io/burrow-and-bait/ja/terms.html">
+<link rel="alternate" hreflang="ko" href="https://lt24appmaker.github.io/burrow-and-bait/ko/terms.html">
+<link rel="alternate" hreflang="es" href="https://lt24appmaker.github.io/burrow-and-bait/es/terms.html">
+<link rel="alternate" hreflang="pt-BR" href="https://lt24appmaker.github.io/burrow-and-bait/pt-BR/terms.html">
+<link rel="alternate" hreflang="fr" href="https://lt24appmaker.github.io/burrow-and-bait/fr/terms.html">
+<link rel="alternate" hreflang="de" href="https://lt24appmaker.github.io/burrow-and-bait/de/terms.html">
+<link rel="alternate" hreflang="it" href="https://lt24appmaker.github.io/burrow-and-bait/it/terms.html">
+<link rel="alternate" hreflang="ru" href="https://lt24appmaker.github.io/burrow-and-bait/ru/terms.html">
+<link rel="alternate" hreflang="ar" href="https://lt24appmaker.github.io/burrow-and-bait/ar/terms.html">
+<link rel="alternate" hreflang="hi" href="https://lt24appmaker.github.io/burrow-and-bait/hi/terms.html">
+<link rel="alternate" hreflang="id" href="https://lt24appmaker.github.io/burrow-and-bait/id/terms.html">
+<link rel="alternate" hreflang="x-default" href="https://lt24appmaker.github.io/burrow-and-bait/en/terms.html">
+<link rel="canonical" href="https://lt24appmaker.github.io/burrow-and-bait/ru/terms.html">
+</head>
+<body>
+<header class="site">
+<div class="wrap">
+<img src="../assets/icon-192.png" width="48" height="48" alt="">
+<a class="brand" href="../index.html" lang="en" dir="ltr">Burrow &amp; Bait</a>
+<nav class="pages" aria-label="Условия использования">
+<a href="privacy.html">Политика конфиденциальности</a>
+<a href="terms.html" aria-current="page">Условия использования</a>
+<a href="support.html">Поддержка</a>
+</nav>
+</div>
+</header>
+<main class="wrap">
+<h1>Условия использования — Burrow &amp; Bait</h1>
+<p><strong>Дата вступления в силу: 21 ноября 2026 г.</strong> · Последнее обновление: 21 ноября 2026 г.</p>
+<p>Это перевод; при любых расхождениях с английской версией <strong>приоритет имеет английская версия</strong>.</p>
+<h2>1. Принятие условий</h2>
+<p>Загружая или используя мобильную игру <strong>Burrow &amp; Bait</strong> («Приложение»), вы соглашаетесь с настоящими Условиями использования и нашей Политикой конфиденциальности. Если вы не согласны, пожалуйста, не используйте Приложение.</p>
+<p><strong>Если вы получили Приложение в Apple App Store</strong>, ваша лицензия на использование регулируется <strong>Лицензионным соглашением с конечным пользователем лицензируемого приложения</strong> Apple («стандартное EULA»): <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener noreferrer">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>. Настоящие Условия дополняют сведения, специфичные для Приложения, и не ограничивают ваши права по стандартному EULA; при противоречии приоритет имеет стандартное EULA.<br>
+<strong>Если вы получили Приложение в Google Play</strong>, настоящие Условия применяются совместно с Условиями использования Google Play.</p>
+<h2>2. Поставщик</h2>
+<p>Приложение предоставляет <strong>LT24 App Maker</strong> («мы»). Контакт: <strong><a href="mailto:lt24appmaker@gmail.com">lt24appmaker@gmail.com</a></strong>.</p>
+<h2>3. Лицензия</h2>
+<p>Мы предоставляем вам персональную, неисключительную, непередаваемую, отзывную лицензию на использование Приложения для вашего личного некоммерческого развлечения на устройствах, которыми вы владеете или которые контролируете, в пределах, разрешённых магазином, из которого вы его получили. Все права, прямо не предоставленные, сохраняются за нами и нашими лицензиарами. Графика, музыка, тексты и код Приложения защищены авторским правом; материалы третьих лиц используются на условиях их собственных лицензий (см. Настройки → Правовая информация → Благодарности).</p>
+<h2>4. Покупки в приложении</h2>
+<ul>
+<li>Дополнительные наборы контента (например, наборы украшений и набор «Поддержка») продаются как <strong>разовые покупки</strong> через App Store или Google Play. Это <strong>не подписки</strong>: они не продлеваются и их никогда не нужно отменять.</li>
+<li>Цены показываются в Приложении так, как их предоставляет магазин, в вашей местной валюте, с учётом налогов, если магазин их применяет. Платёж обрабатывают Apple или Google; мы никогда не видим ваши платёжные данные.</li>
+<li>Покупка даёт вам <strong>лицензию на использование контента в Приложении</strong>; это не продажа имущества, она не имеет денежной стоимости и не может быть обменена на деньги.</li>
+<li><strong>Набор «Поддержка»</strong> — это покупка декоративного предмета с благодарственным сообщением. Это не благотворительное пожертвование, и оно не влияет на игровой процесс.</li>
+<li>Покупки привязаны к <strong>учётной записи App Store или Google Play</strong>, с помощью которой они были совершены, и <strong>не могут быть переданы</strong> другой учётной записи или между платформами Apple и Google. Семейный доступ в настоящее время не поддерживается.</li>
+<li><strong>Восстановление покупок:</strong> после переустановки Приложения или перехода на новое устройство с той же учётной записью магазина нажмите <strong>Восстановить покупки</strong> в Магазине или в Настройках (требуется подключение к интернету).</li>
+<li><strong>Возвраты</strong> обрабатывают Apple или Google в соответствии со своими политиками:
+<ul>
+<li>Apple: <a href="https://support.apple.com/en-us/118223" rel="noopener noreferrer">https://support.apple.com/en-us/118223</a> (reportaproblem.apple.com)</li>
+<li>Google Play: <a href="https://support.google.com/googleplay/answer/2479637?hl=ru" rel="noopener noreferrer">https://support.google.com/googleplay/answer/2479637?hl=ru</a></li>
+</ul>
+<p>Ничто в настоящих Условиях не ограничивает ваши права, предусмотренные законом, например права потребителя на отказ от покупки в вашей стране. Если покупка возвращена или отменена, связанный контент снова блокируется; ваш игровой прогресс сохраняется.</p></li>
+<li>Купленный контент остаётся доступным в Приложении, пока мы предлагаем Приложение. Если нам когда-либо придётся удалить купленный контент, мы сделаем это только в той мере, в какой это допускают закон и правила магазина.</li>
+</ul>
+<h2>5. Ваши данные и резервные копии</h2>
+<p>В Приложении нет учётной записи и облачной синхронизации. Ваш игровой прогресс хранится <strong>только на вашем устройстве</strong>. Вы сами отвечаете за резервное копирование: используйте <strong>Настройки → Данные → Экспорт</strong>, чтобы сохранить файл резервной копии, и <strong>Импорт</strong>, чтобы восстановить его на другом устройстве. Мы не можем восстановить утраченный или удалённый прогресс, потому что у нас нет его копии. Действие «Удалить все данные» нельзя отменить. Подробности см. в Политике конфиденциальности.</p>
+<h2>6. Допустимое использование</h2>
+<p>Вы соглашаетесь не: копировать, изменять, распространять, продавать или сдавать в аренду Приложение или его материалы; проводить обратную разработку или декомпиляцию Приложения, за исключением случаев, когда закон разрешает это вопреки данному ограничению; обходить или подделывать проверку покупок; а также не использовать Приложение незаконно. Изменение собственного сохранения или системных часов устройства влияет только на вашу собственную игру и производится на ваш страх и риск.</p>
+<h2>7. Обновления и доступность</h2>
+<p>Мы можем обновлять Приложение, чтобы исправлять ошибки, добавлять или изменять функции либо соблюдать правила магазинов и законы. Некоторые функции (покупки, восстановление, обновления) требуют подключения к интернету. Мы можем прекратить предлагать Приложение; в этом случае уже установленные копии могут продолжать работать офлайн, но мы не можем этого гарантировать.</p>
+<h2>8. Отказ от гарантий</h2>
+<p>Приложение — это игра, предоставляемая <strong>«как есть» и «по мере доступности»</strong>. В той мере, в какой это допускает закон, мы не гарантируем, что оно будет работать непрерывно, без ошибок или будет совместимо с любым устройством. Животные в Приложении вымышлены; «ловушки» и «приманки» в игре — это мягкие игровые механики, а не руководство по обращению с настоящими дикими животными.</p>
+<h2>9. Ограничение ответственности</h2>
+<p>В той мере, в какой это допускает закон, мы не несём ответственности за косвенные, случайные или последующие убытки, а также за потерю игровых данных. Наша совокупная ответственность по любой претензии, связанной с Приложением, ограничена суммой, которую вы заплатили за Приложение и покупки в приложении за 12 месяцев до предъявления претензии. Ничто в настоящих Условиях не исключает ответственность, которая не может быть исключена законом (например, за смерть или телесные повреждения, вызванные небрежностью, за мошенничество, а также ваши императивные права потребителя).</p>
+<h2>10. Изменения настоящих Условий</h2>
+<p>Мы можем обновлять настоящие Условия. Мы изменим дату «Последнее обновление» и о существенных изменениях уведомим в Приложении или на странице магазина. Продолжение использования Приложения после вступления изменений в силу означает, что вы их принимаете.</p>
+<h2>11. Применимое право и контакты</h2>
+<p>Настоящие Условия регулируются законодательством Вьетнама, без лишения вас защиты императивных норм законодательства о защите прав потребителей страны, где вы проживаете, и вы можете обратиться с иском в местные суды, если это допускает закон. Вопросы: <strong><a href="mailto:lt24appmaker@gmail.com">lt24appmaker@gmail.com</a></strong> · Политика конфиденциальности: <a href="privacy.html">https://lt24appmaker.github.io/burrow-and-bait/ru/privacy.html</a> · Поддержка: <a href="support.html">https://lt24appmaker.github.io/burrow-and-bait/ru/support.html</a></p>
+</main>
+<div class="wrap">
+<nav class="langs" aria-label="Язык">
+<h2>Язык</h2>
+<ul>
+<li><a href="../en/terms.html" lang="en" hreflang="en">English</a></li>
+<li><a href="../vi/terms.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+<li><a href="../zh-Hans/terms.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+<li><a href="../zh-Hant/terms.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+<li><a href="../ja/terms.html" lang="ja" hreflang="ja">日本語</a></li>
+<li><a href="../ko/terms.html" lang="ko" hreflang="ko">한국어</a></li>
+<li><a href="../es/terms.html" lang="es" hreflang="es">Español</a></li>
+<li><a href="../pt-BR/terms.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+<li><a href="../fr/terms.html" lang="fr" hreflang="fr">Français</a></li>
+<li><a href="../de/terms.html" lang="de" hreflang="de">Deutsch</a></li>
+<li><a href="../it/terms.html" lang="it" hreflang="it">Italiano</a></li>
+<li><a href="../ru/terms.html" lang="ru" hreflang="ru" aria-current="true">Русский</a></li>
+<li><a href="../ar/terms.html" lang="ar" hreflang="ar" dir="rtl">العربية</a></li>
+<li><a href="../hi/terms.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+<li><a href="../id/terms.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+</ul>
+</nav>
+</div>
+<footer class="site">
+<div class="wrap">
+<p>Последнее обновление: <time datetime="2026-11-21">21 ноября 2026 г.</time></p>
+<p>Burrow &amp; Bait · LT24 App Maker · <a href="mailto:lt24appmaker@gmail.com">lt24appmaker@gmail.com</a> · <a href="../index.html">Все языки</a></p>
+</div>
+</footer>
+</body>
+</html>

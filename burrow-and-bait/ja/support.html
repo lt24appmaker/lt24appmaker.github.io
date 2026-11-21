@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ja" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#FBF3E2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1E1610" media="(prefers-color-scheme: dark)">
+<title>サポート — Burrow &amp; Bait</title>
+<meta name="description" content="サポート — Burrow &amp; Bait (LT24 App Maker). 最終更新日: 2026-11-21.">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/icon-192.png">
+<style>
+:root{color-scheme:light dark;--bg:#FBF3E2;--surface:#FFFBF0;--surface2:#F0E2C8;--text:#3B2619;--muted:#6B5444;--primary:#A4491B;--primary-press:#8A3A12;--on-primary:#FFFBF0;--border:#E0CFAE;--border-strong:#8A7357;--focus:#1B5FB0}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1E1610;--surface:#2B2018;--surface2:#3A2D22;--text:#F3E6CC;--muted:#C2AE92;--primary:#F0A35E;--primary-press:#D98B45;--on-primary:#2B1708;--border:#4A3A2C;--border-strong:#8F7A5E;--focus:#8CC4FF}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:1rem/1.65 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Helvetica Neue",Arial,"Hiragino Sans","Yu Gothic UI","Malgun Gothic","PingFang SC","PingFang TC","Microsoft YaHei","Noto Sans Arabic","Noto Sans Devanagari",sans-serif;overflow-wrap:anywhere}
+a{color:var(--primary);text-decoration:underline;text-underline-offset:.15em}
+a:hover{color:var(--primary-press)}
+a:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:2px}
+.wrap{max-width:46rem;margin:0 auto;padding:0 16px}
+header.site{background:var(--surface);border-bottom:2px solid var(--text)}
+header.site .wrap{display:flex;align-items:center;gap:12px;padding-top:12px;padding-bottom:12px;flex-wrap:wrap}
+header.site img{width:48px;height:48px;border-radius:11px;border:2px solid var(--text);display:block}
+header.site .brand{font-weight:800;font-size:1.15rem;color:var(--text);text-decoration:none;margin-inline-end:auto}
+nav.pages{display:flex;gap:4px 8px;flex-wrap:wrap}
+nav.pages a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border:2px solid var(--border-strong);border-radius:10px;text-decoration:none;color:var(--text);background:var(--bg);font-size:.95rem}
+nav.pages a[aria-current=page]{background:var(--primary);border-color:var(--text);color:var(--on-primary);font-weight:700}
+main{padding:24px 0 8px}
+h1{font-size:1.6rem;line-height:1.25;margin:.2em 0 .6em}
+h2{font-size:1.2rem;line-height:1.3;margin:1.8em 0 .5em}
+p,ul{margin:.7em 0}
+ul{padding-inline-start:1.4em}
+li{margin:.3em 0}
+li>ul{margin:.3em 0}
+.meta{color:var(--muted);font-size:.95rem}
+.table-wrap{overflow-x:auto;margin:1em 0;border:1px solid var(--border-strong);border-radius:10px;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:.92rem;line-height:1.5;background:var(--surface)}
+th,td{padding:9px 10px;border-bottom:1px solid var(--border);vertical-align:top;text-align:start}
+thead th{background:var(--surface2);font-weight:700}
+tbody th{font-weight:600}
+tbody tr:last-child>*{border-bottom:0}
+bdi{white-space:nowrap}
+@media (max-width:44rem){.table-wrap{border:0;overflow:visible}table,tbody{display:block;background:transparent}thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}tr{display:block;margin:0 0 12px;background:var(--surface);border:1px solid var(--border-strong);border-radius:10px;overflow:hidden}tbody th,td{display:block;border-bottom:1px solid var(--border);padding:8px 12px}tbody th{background:var(--surface2);font-weight:700}tbody tr>*:last-child{border-bottom:0}td::before{content:attr(data-label);display:block;font-size:.8rem;font-weight:700;color:var(--muted);margin-bottom:2px}}
+nav.langs{margin:32px 0 8px;padding:16px 0;border-top:1px solid var(--border-strong)}
+nav.langs h2{font-size:1rem;margin:0 0 .5em}
+nav.langs ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:6px 8px}
+nav.langs a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border:1px solid var(--border-strong);border-radius:10px;text-decoration:none;color:var(--text);background:var(--surface)}
+nav.langs a[aria-current=true]{background:var(--surface2);font-weight:700;border-color:var(--text)}
+footer.site{border-top:1px solid var(--border);color:var(--muted);font-size:.9rem;padding:16px 0 32px}
+footer.site p{margin:.3em 0}
+.lede{font-size:1.05rem}
+.lang-list{list-style:none;padding:0;margin:1em 0}
+.lang-list li{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;padding:10px 12px;margin:8px 0;background:var(--surface);border:1px solid var(--border-strong);border-radius:12px}
+.lang-list .name{font-weight:700;min-width:9.5rem;flex:1 1 100%}
+.lang-list a{display:inline-flex;align-items:center;min-height:44px;padding:0 4px}
+@media (min-width:34rem){.lang-list .name{flex:0 0 11rem}}
+@media (max-width:420px){body{font-size:1rem}h1{font-size:1.4rem}}
+@media print{header.site nav,nav.langs{display:none}}
+</style>
+<link rel="alternate" hreflang="en" href="https://lt24appmaker.github.io/burrow-and-bait/en/support.html">
+<link rel="alternate" hreflang="vi" href="https://lt24appmaker.github.io/burrow-and-bait/vi/support.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://lt24appmaker.github.io/burrow-and-bait/zh-Hans/support.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://lt24appmaker.github.io/burrow-and-bait/zh-Hant/support.html">
+<link rel="alternate" hreflang="ja" href="https://lt24appmaker.github.io/burrow-and-bait/ja/support.html">
+<link rel="alternate" hreflang="ko" href="https://lt24appmaker.github.io/burrow-and-bait/ko/support.html">
+<link rel="alternate" hreflang="es" href="https://lt24appmaker.github.io/burrow-and-bait/es/support.html">
+<link rel="alternate" hreflang="pt-BR" href="https://lt24appmaker.github.io/burrow-and-bait/pt-BR/support.html">
+<link rel="alternate" hreflang="fr" href="https://lt24appmaker.github.io/burrow-and-bait/fr/support.html">
+<link rel="alternate" hreflang="de" href="https://lt24appmaker.github.io/burrow-and-bait/de/support.html">
+<link rel="alternate" hreflang="it" href="https://lt24appmaker.github.io/burrow-and-bait/it/support.html">
+<link rel="alternate" hreflang="ru" href="https://lt24appmaker.github.io/burrow-and-bait/ru/support.html">
+<link rel="alternate" hreflang="ar" href="https://lt24appmaker.github.io/burrow-and-bait/ar/support.html">
+<link rel="alternate" hreflang="hi" href="https://lt24appmaker.github.io/burrow-and-bait/hi/support.html">
+<link rel="alternate" hreflang="id" href="https://lt24appmaker.github.io/burrow-and-bait/id/support.html">
+<link rel="alternate" hreflang="x-default" href="https://lt24appmaker.github.io/burrow-and-bait/en/support.html">
+<link rel="canonical" href="https://lt24appmaker.github.io/burrow-and-bait/ja/support.html">
+</head>
+<body>
+<header class="site">
+<div class="wrap">
+<img src="../assets/icon-192.png" width="48" height="48" alt="">
+<a class="brand" href="../index.html" lang="en" dir="ltr">Burrow &amp; Bait</a>
+<nav class="pages" aria-label="サポート">
+<a href="privacy.html">プライバシーポリシー</a>
+<a href="terms.html">利用規約</a>
+<a href="support.html" aria-current="page">サポート</a>
+</nav>
+</div>
+</header>
+<main class="wrap">
+<h1>サポート — Burrow &amp; Bait</h1>
+<p>最終更新日：2026年11月21日 · 英語版と相違がある場合は英語版が優先されます。</p>
+<p><strong>お問い合わせ：</strong> <a href="mailto:lt24appmaker@gmail.com">lt24appmaker@gmail.com</a> — 通常、数営業日以内に返信します。お使いの機種、OS のバージョン、アプリのバージョンをお知らせください（設定 → フィードバックを送信 から自動で入力されます）。ストアのパスワードや支払い情報は、決して当方に送らないでください。</p>
+<h2>よくある質問</h2>
+<p><strong>1. ゲームを再インストールした / 新しいスマートフォンにしました。購入したものを取り戻すには？</strong><br>
+購入は、お使いの App Store または Google Play のアカウントに紐付いています。同じストアアカウントでサインインし、インターネットに接続して、ショップまたは <strong>設定 → あなたのパック</strong> で<strong>購入を復元</strong>をタップしてください。購入は Apple と Google のデバイス間では移行できません。</p>
+<p><strong>2. 保護区を別のスマートフォンに移すには？</strong><br>
+アカウントやクラウド同期はないため、進行状況はお使いのデバイスにのみ保存されています。古いスマートフォンで <strong>設定 → データ → エクスポート</strong> を開き、バックアップファイルを取り出せる場所（「ファイル」、Google ドライブ、自分宛てのメールなど）に保存または送信してください。新しいスマートフォンにゲームをインストールし、<strong>設定 → データ → インポート</strong> でそのファイルを選んで確認します。その後、購入を復元してください（質問 1）。デバイス自体の iCloud / Android バックアップでゲームが引き継がれることもありますが、保証はできません。確実なのはエクスポートです。</p>
+<p><strong>3. すべてのデータを削除するには？</strong><br>
+<strong>設定 → データ → すべてのデータを削除</strong> を開き、確認します。このデバイス上のゲームの進行状況、設定、予約された通知が消去され、元に戻せません。後で必要になりそうな場合は、先にバックアップをエクスポートしてください。購入したものは失われません。いつでも復元できます。</p>
+<p><strong>4. 通知が届きません。</strong><br>
+お使いのデバイスの設定で Burrow &amp; Bait の通知が許可されていること、また <strong>設定 → 通知</strong> でオンになっていることを確認してください。仕様として、ゲームは 22:00 から 08:00 の間は静かにしており（通知は朝に移ります）、通知は 1 日最大 3 グループまでで、プレイ中は表示されません。通知は、省電力モード、集中モード/おやすみモード、一部の Android 端末の強力なバッテリー最適化などにより、数分遅れて届くことがあります。通知が表示されなかった場合でも、ゲームを開いたときのどうぶつたちの結果は常に正しいものになります。</p>
+<p><strong>5. 言語を変更するには？</strong><br>
+<strong>設定 → 言語</strong> で変更できます。ゲームは 15 言語に対応しています：English、Tiếng Việt、简体中文、繁體中文、日本語、한국어、Español、Português (Brasil)、Français、Deutsch、Italiano、Русский、العربية、हिन्दी、Bahasa Indonesia。初期設定ではスマートフォンの言語に従います。</p>
+<p><strong>6. 返金してもらえますか？</strong><br>
+決済は Apple または Google が処理しているため、返金はそれぞれに申請してください：</p>
+<ul>
+<li>App Store：<a href="https://support.apple.com/en-us/118223" rel="noopener noreferrer">https://support.apple.com/en-us/118223</a>（reportaproblem.apple.com）</li>
+<li>Google Play：<a href="https://support.google.com/googleplay/answer/2479637?hl=ja" rel="noopener noreferrer">https://support.google.com/googleplay/answer/2479637?hl=ja</a></li>
+</ul>
+<p>購入が返金された場合、そのコンテンツは再びロックされますが、進行状況は保持されます。すべてのパックは買い切りで、解約が必要なサブスクリプションはありません。</p>
+<p><strong>7. ゲームは私のデータをどこかに送信しますか？</strong><br>
+ゲームはお使いのデバイス内にあります。広告も、アカウントも、トラッキングもありません。ゲームが通信するのは RevenueCat（購入の確認）と Expo（アプリのアップデートのダウンロード）のみで、送られるのは限定的な技術データです。分析やクラッシュ報告のサービスはありません。詳細はプライバシーポリシーをご覧ください：<a href="privacy.html">https://lt24appmaker.github.io/burrow-and-bait/ja/privacy.html</a></p>
+<p><strong>8. プレイにはオンライン接続が必要ですか？</strong><br>
+いいえ。すべてオフラインで動作します。ゲームを閉じている間もわなや巣は「動き続け」、戻ってきたときに結果が計算されます。インターネットが必要なのは、購入、購入の復元、アップデートの受信のときだけです。</p>
+<p><strong>9. 問題が起きた / 不具合を見つけました。どう連絡すればいいですか？</strong><br>
+<strong>設定 → フィードバックを送信</strong> を使うか、短い説明（可能であればスクリーンショットも）を添えて <strong><a href="mailto:lt24appmaker@gmail.com">lt24appmaker@gmail.com</a></strong> までメールをお送りください。起動時にゲームにエラー画面が表示される場合は、ご連絡いただく前にアプリを削除しないでください。セーブデータがデバイス上でまだ復旧できる可能性があります。</p>
+<p>リンク：プライバシーポリシー <a href="privacy.html">https://lt24appmaker.github.io/burrow-and-bait/ja/privacy.html</a> · 利用規約 <a href="terms.html">https://lt24appmaker.github.io/burrow-and-bait/ja/terms.html</a> · Apple 標準 EULA（iOS）：<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener noreferrer">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>
+</main>
+<div class="wrap">
+<nav class="langs" aria-label="言語">
+<h2>言語</h2>
+<ul>
+<li><a href="../en/support.html" lang="en" hreflang="en">English</a></li>
+<li><a href="../vi/support.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+<li><a href="../zh-Hans/support.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+<li><a href="../zh-Hant/support.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+<li><a href="../ja/support.html" lang="ja" hreflang="ja" aria-current="true">日本語</a></li>
+<li><a href="../ko/support.html" lang="ko" hreflang="ko">한국어</a></li>
+<li><a href="../es/support.html" lang="es" hreflang="es">Español</a></li>
+<li><a href="../pt-BR/support.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+<li><a href="../fr/support.html" lang="fr" hreflang="fr">Français</a></li>
+<li><a href="../de/support.html" lang="de" hreflang="de">Deutsch</a></li>
+<li><a href="../it/support.html" lang="it" hreflang="it">Italiano</a></li>
+<li><a href="../ru/support.html" lang="ru" hreflang="ru">Русский</a></li>
+<li><a href="../ar/support.html" lang="ar" hreflang="ar" dir="rtl">العربية</a></li>
+<li><a href="../hi/support.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+<li><a href="../id/support.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+</ul>
+</nav>
+</div>
+<footer class="site">
+<div class="wrap">
+<p>最終更新日: <time datetime="2026-11-21">2026年11月21日</time></p>
+<p>Burrow &amp; Bait · LT24 App Maker · <a href="mailto:lt24appmaker@gmail.com">lt24appmaker@gmail.com</a> · <a href="../index.html">すべての言語</a></p>
+</div>
+</footer>
+</body>
+</html>

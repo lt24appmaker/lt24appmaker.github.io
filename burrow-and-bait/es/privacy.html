@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#FBF3E2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1E1610" media="(prefers-color-scheme: dark)">
+<title>Política de privacidad — Burrow &amp; Bait</title>
+<meta name="description" content="Política de privacidad — Burrow &amp; Bait (LT24 App Maker). Última actualización: 2026-11-21.">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/icon-192.png">
+<style>
+:root{color-scheme:light dark;--bg:#FBF3E2;--surface:#FFFBF0;--surface2:#F0E2C8;--text:#3B2619;--muted:#6B5444;--primary:#A4491B;--primary-press:#8A3A12;--on-primary:#FFFBF0;--border:#E0CFAE;--border-strong:#8A7357;--focus:#1B5FB0}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1E1610;--surface:#2B2018;--surface2:#3A2D22;--text:#F3E6CC;--muted:#C2AE92;--primary:#F0A35E;--primary-press:#D98B45;--on-primary:#2B1708;--border:#4A3A2C;--border-strong:#8F7A5E;--focus:#8CC4FF}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:1rem/1.65 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Helvetica Neue",Arial,"Hiragino Sans","Yu Gothic UI","Malgun Gothic","PingFang SC","PingFang TC","Microsoft YaHei","Noto Sans Arabic","Noto Sans Devanagari",sans-serif;overflow-wrap:anywhere}
+a{color:var(--primary);text-decoration:underline;text-underline-offset:.15em}
+a:hover{color:var(--primary-press)}
+a:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:2px}
+.wrap{max-width:46rem;margin:0 auto;padding:0 16px}
+header.site{background:var(--surface);border-bottom:2px solid var(--text)}
+header.site .wrap{display:flex;align-items:center;gap:12px;padding-top:12px;padding-bottom:12px;flex-wrap:wrap}
+header.site img{width:48px;height:48px;border-radius:11px;border:2px solid var(--text);display:block}
+header.site .brand{font-weight:800;font-size:1.15rem;color:var(--text);text-decoration:none;margin-inline-end:auto}
+nav.pages{display:flex;gap:4px 8px;flex-wrap:wrap}
+nav.pages a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border:2px solid var(--border-strong);border-radius:10px;text-decoration:none;color:var(--text);background:var(--bg);font-size:.95rem}
+nav.pages a[aria-current=page]{background:var(--primary);border-color:var(--text);color:var(--on-primary);font-weight:700}
+main{padding:24px 0 8px}
+h1{font-size:1.6rem;line-height:1.25;margin:.2em 0 .6em}
+h2{font-size:1.2rem;line-height:1.3;margin:1.8em 0 .5em}
+p,ul{margin:.7em 0}
+ul{padding-inline-start:1.4em}
+li{margin:.3em 0}
+li>ul{margin:.3em 0}
+.meta{color:var(--muted);font-size:.95rem}
+.table-wrap{overflow-x:auto;margin:1em 0;border:1px solid var(--border-strong);border-radius:10px;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:.92rem;line-height:1.5;background:var(--surface)}
+th,td{padding:9px 10px;border-bottom:1px solid var(--border);vertical-align:top;text-align:start}
+thead th{background:var(--surface2);font-weight:700}
+tbody th{font-weight:600}
+tbody tr:last-child>*{border-bottom:0}
+bdi{white-space:nowrap}
+@media (max-width:44rem){.table-wrap{border:0;overflow:visible}table,tbody{display:block;background:transparent}thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}tr{display:block;margin:0 0 12px;background:var(--surface);border:1px solid var(--border-strong);border-radius:10px;overflow:hidden}tbody th,td{display:block;border-bottom:1px solid var(--border);padding:8px 12px}tbody th{background:var(--surface2);font-weight:700}tbody tr>*:last-child{border-bottom:0}td::before{content:attr(data-label);display:block;font-size:.8rem;font-weight:700;color:var(--muted);margin-bottom:2px}}
+nav.langs{margin:32px 0 8px;padding:16px 0;border-top:1px solid var(--border-strong)}
+nav.langs h2{font-size:1rem;margin:0 0 .5em}
+nav.langs ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:6px 8px}
+nav.langs a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border:1px solid var(--border-strong);border-radius:10px;text-decoration:none;color:var(--text);background:var(--surface)}
+nav.langs a[aria-current=true]{background:var(--surface2);font-weight:700;border-color:var(--text)}
+footer.site{border-top:1px solid var(--border);color:var(--muted);font-size:.9rem;padding:16px 0 32px}
+footer.site p{margin:.3em 0}
+.lede{font-size:1.05rem}
+.lang-list{list-style:none;padding:0;margin:1em 0}
+.lang-list li{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;padding:10px 12px;margin:8px 0;background:var(--surface);border:1px solid var(--border-strong);border-radius:12px}
+.lang-list .name{font-weight:700;min-width:9.5rem;flex:1 1 100%}
+.lang-list a{display:inline-flex;align-items:center;min-height:44px;padding:0 4px}
+@media (min-width:34rem){.lang-list .name{flex:0 0 11rem}}
+@media (max-width:420px){body{font-size:1rem}h1{font-size:1.4rem}}
+@media print{header.site nav,nav.langs{display:none}}
+</style>
+<link rel="alternate" hreflang="en" href="https://lt24appmaker.github.io/burrow-and-bait/en/privacy.html">
+<link rel="alternate" hreflang="vi" href="https://lt24appmaker.github.io/burrow-and-bait/vi/privacy.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://lt24appmaker.github.io/burrow-and-bait/zh-Hans/privacy.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://lt24appmaker.github.io/burrow-and-bait/zh-Hant/privacy.html">
+<link rel="alternate" hreflang="ja" href="https://lt24appmaker.github.io/burrow-and-bait/ja/privacy.html">
+<link rel="alternate" hreflang="ko" href="https://lt24appmaker.github.io/burrow-and-bait/ko/privacy.html">
+<link rel="alternate" hreflang="es" href="https://lt24appmaker.github.io/burrow-and-bait/es/privacy.html">
+<link rel="alternate" hreflang="pt-BR" href="https://lt24appmaker.github.io/burrow-and-bait/pt-BR/privacy.html">
+<link rel="alternate" hreflang="fr" href="https://lt24appmaker.github.io/burrow-and-bait/fr/privacy.html">
+<link rel="alternate" hreflang="de" href="https://lt24appmaker.github.io/burrow-and-bait/de/privacy.html">
+<link rel="alternate" hreflang="it" href="https://lt24appmaker.github.io/burrow-and-bait/it/privacy.html">
+<link rel="alternate" hreflang="ru" href="https://lt24appmaker.github.io/burrow-and-bait/ru/privacy.html">
+<link rel="alternate" hreflang="ar" href="https://lt24appmaker.github.io/burrow-and-bait/ar/privacy.html">
+<link rel="alternate" hreflang="hi" href="https://lt24appmaker.github.io/burrow-and-bait/hi/privacy.html">
+<link rel="alternate" hreflang="id" href="https://lt24appmaker.github.io/burrow-and-bait/id/privacy.html">
+<link rel="alternate" hreflang="x-default" href="https://lt24appmaker.github.io/burrow-and-bait/en/privacy.html">
+<link rel="canonical" href="https://lt24appmaker.github.io/burrow-and-bait/es/privacy.html">
+</head>
+<body>
+<header class="site">
+<div class="wrap">
+<img src="../assets/icon-192.png" width="48" height="48" alt="">
+<a class="brand" href="../index.html" lang="en" dir="ltr">Burrow &amp; Bait</a>
+<nav class="pages" aria-label="Política de privacidad">
+<a href="privacy.html" aria-current="page">Política de privacidad</a>
+<a href="terms.html">Términos de uso</a>
+<a href="support.html">Soporte</a>
+</nav>
+</div>
+</header>
+<main class="wrap">
+<h1>Política de privacidad — Burrow &amp; Bait</h1>
+<p><strong>Fecha de entrada en vigor: 21 de noviembre de 2026</strong> · Última actualización: 21 de noviembre de 2026</p>
+<p>Esta Política de privacidad explica cómo el juego para móviles <strong>Burrow &amp; Bait</strong> (la &quot;App&quot;) trata la información. Esta es una traducción; si hay alguna diferencia con la versión en inglés, <strong>prevalece la versión en inglés</strong>.</p>
+<h2>1. Quiénes somos</h2>
+<p>La App es publicada por <strong>LT24 App Maker</strong> (&quot;nosotros&quot;). Contacto: <strong><a href="mailto:lt24appmaker@gmail.com">lt24appmaker@gmail.com</a></strong>. A efectos del Reglamento General de Protección de Datos de la UE/Reino Unido (RGPD) y de otras leyes de protección de datos, LT24 App Maker es el responsable del tratamiento de los datos limitados que se describen a continuación.</p>
+<h2>2. Resumen</h2>
+<ul>
+<li><strong>Sin cuenta, sin inicio de sesión.</strong> La App nunca te pide tu nombre, correo electrónico, número de teléfono, ubicación, contactos ni fotos.</li>
+<li><strong>Tu partida vive en tu dispositivo.</strong> Tu santuario, tus animalitos, tu inventario, tu cuaderno de campo y tus ajustes se guardan solo en tu dispositivo. No operamos ningún servidor y no podemos ver los datos de tu juego.</li>
+<li><strong>Sin anuncios, sin rastreo, sin analíticas, sin SDK de informes de fallos.</strong> La App no contiene publicidad, no te rastrea entre apps o sitios web de otras empresas y no usa el identificador publicitario (IDFA / Advertising ID).</li>
+<li><strong>Dos proveedores de servicios</strong> reciben datos técnicos limitados para que la App funcione: <strong>RevenueCat</strong> (para confirmar compras) y <strong>Expo</strong> (actualizaciones de la app). Los pagos los gestiona <strong>Apple</strong> o <strong>Google</strong>.</li>
+<li><strong>No vendemos ni compartimos tu información personal</strong> con fines publicitarios.</li>
+</ul>
+<h2>3. Datos almacenados solo en tu dispositivo</h2>
+<div class="table-wrap"><table>
+<thead><tr><th scope="col">Datos</th><th scope="col">Finalidad</th><th scope="col">¿Salen de tu dispositivo?</th></tr></thead>
+<tbody>
+<tr><th scope="row">Progreso del juego: animalitos (especie, colores, rasgos, felicidad), trampas y cebos, inventario, recetas, cuaderno de campo, decoraciones, hitos desbloqueados</th><td data-label="Finalidad">Jugar</td><td data-label="¿Salen de tu dispositivo?">No</td></tr>
+<tr><th scope="row">Ajustes: idioma, tema, música/sonido/vibración, preferencias de notificaciones y horas de silencio, indicadores del tutorial</th><td data-label="Finalidad">Tus preferencias</td><td data-label="¿Salen de tu dispositivo?">No</td></tr>
+<tr><th scope="row">Hora del último inicio y zona horaria</th><td data-label="Finalidad">Calcular lo que ocurrió mientras la App estaba cerrada</td><td data-label="¿Salen de tu dispositivo?">No</td></tr>
+<tr><th scope="row">Lista en caché de los packs comprados</th><td data-label="Finalidad">Que el contenido comprado funcione sin conexión</td><td data-label="¿Salen de tu dispositivo?">No (se actualiza desde RevenueCat cuando hay conexión)</td></tr>
+<tr><th scope="row">Notificaciones locales programadas</th><td data-label="Finalidad">Avisarte cuando una trampa o una eclosión está lista</td><td data-label="¿Salen de tu dispositivo?">No — las programa el sistema operativo de tu dispositivo; no hay servidor push</td></tr>
+<tr><th scope="row">Registro de errores local: hasta los 5 errores más recientes (hora, código de error, parte del juego afectada, mensaje técnico abreviado, versión de la app/del sistema, idioma) — sin partida guardada, nombres de animalitos, identificadores ni rutas de archivo</th><td data-label="Finalidad">Ayudarte a informar de un problema si algo sale mal</td><td data-label="¿Salen de tu dispositivo?">No — nunca se envía automáticamente. Puedes optar por copiarlo en un correo a soporte</td></tr>
+</tbody>
+</table></div>
+<p><strong>Copias de seguridad del dispositivo.</strong> Si tienes activada la copia de seguridad de iCloud (iOS) o la copia de seguridad del dispositivo Android, es posible que tu sistema operativo incluya los datos de juego de la App en esa copia. Esas copias las gestiona Apple o Google según sus propias políticas de privacidad; nosotros no podemos acceder a ellas.</p>
+<p><strong>Archivos de copia de seguridad que exportas.</strong> La función &quot;Exportar&quot; crea un archivo con tu progreso y tus preferencias de juego. No contiene información personal, recibos de compra, identificadores ni tokens. El archivo solo va adonde tú elijas guardarlo o compartirlo.</p>
+<p><strong>Correo a soporte.</strong> Si nos escribes (también mediante &quot;Enviar comentarios&quot; en la App, que abre tu propia app de correo), recibimos tu dirección de correo y lo que escribas, además de los datos técnicos rellenados previamente en el mensaje (versión de la app, versión del sistema, idioma y si tienes algún pack — sin datos de juego, sin identificadores) y el registro de errores solo si decides pegarlo. Lo usamos únicamente para responderte y eliminamos los correos de soporte en un plazo de 24 meses tras finalizar la conversación.</p>
+<h2>4. Datos tratados por proveedores de servicios</h2>
+<p>Estos proveedores actúan en nuestro nombre (como &quot;encargados del tratamiento&quot; / &quot;proveedores de servicios&quot;) y no pueden usar los datos para su propia publicidad. Todas las transmisiones usan conexiones cifradas (HTTPS/TLS).</p>
+<div class="table-wrap"><table>
+<thead><tr><th scope="col">Proveedor</th><th scope="col">Qué recibe</th><th scope="col">Por qué</th><th scope="col">Cuándo</th><th scope="col">Su política</th></tr></thead>
+<tbody>
+<tr><th scope="row"><strong>RevenueCat, Inc.</strong> (EE. UU.)</th><td data-label="Qué recibe">Un ID de usuario de app anónimo y aleatorio generado por el SDK de RevenueCat (no vinculado a tu nombre ni correo); historial de compras y recibos/datos de transacción de la tienda; versión de la app, plataforma, configuración regional del dispositivo y código de moneda; tu dirección IP como parte de la conexión de red</td><td data-label="Por qué">Validar compras, desbloquear packs, restaurar compras, detectar reembolsos; estadísticas agregadas de ventas</td><td data-label="Cuándo">Al iniciar la app, abrir la Tienda, comprar, restaurar</td><td data-label="Su política"><a href="https://www.revenuecat.com/privacy" rel="noopener noreferrer">revenuecat.com/privacy</a></td></tr>
+<tr><th scope="row"><strong>Expo / 650 Industries, Inc.</strong> (EE. UU.)</th><td data-label="Qué recibe">Al buscar una actualización: un ID de cliente aleatorio generado en el dispositivo (no es un ID de hardware ni publicitario), versión de ejecución de la app, canal de actualización y plataforma; dirección IP como parte de la conexión de red; si falla una actualización, el ID de la actualización fallida y el texto del error</td><td data-label="Por qué">Entregar actualizaciones de corrección de errores a la App y detectar actualizaciones fallidas</td><td data-label="Cuándo">Al iniciar la app (en segundo plano)</td><td data-label="Su política"><a href="https://expo.dev/privacy" rel="noopener noreferrer">expo.dev/privacy</a></td></tr>
+<tr><th scope="row"><strong>Apple</strong> (App Store) / <strong>Google</strong> (Google Play)</th><td data-label="Qué recibe">Datos de pago y de cuenta necesarios para procesar tu compra</td><td data-label="Por qué">Pagos, reembolsos, historial de compras</td><td data-label="Cuándo">Cuando compras</td><td data-label="Su política"><a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer">apple.com/legal/privacy</a> · <a href="https://policies.google.com/privacy" rel="noopener noreferrer">policies.google.com/privacy</a></td></tr>
+</tbody>
+</table></div>
+<p>La App no incluye ningún SDK de informes de fallos ni de analíticas. Apple y Google pueden facilitarnos estadísticas <strong>agregadas y anónimas</strong> (p. ej., número de instalaciones, tasas de fallos, valoraciones) de los usuarios que aceptaron compartirlas con los desarrolladores. No te identifican y se rigen por las políticas de Apple y Google.</p>
+<p><strong>No</strong> recopilamos: nombre, correo electrónico (salvo que nos escribas), teléfono, dirección, ubicación precisa ni aproximada, contactos, fotos, audio del micrófono, historial de navegación, datos de salud, datos de tarjetas de pago ni el identificador publicitario.</p>
+<h2>5. Bases jurídicas (usuarios del EEE/Reino Unido)</h2>
+<ul>
+<li><strong>Ejecución de un contrato</strong> (art. 6.1.b RGPD): tramitar compras y restaurar los packs que compraste; entregar actualizaciones de la app.</li>
+<li><strong>Intereses legítimos</strong> (art. 6.1.f RGPD): detectar actualizaciones fallidas para que la App siga funcionando y entender las ventas agregadas. Hemos minimizado estos datos, por lo que tienen poco o ningún impacto en ti. Puedes oponerte en cualquier momento (véase la sección 7).</li>
+<li><strong>Consentimiento</strong>: las notificaciones solo se muestran si las permites en el aviso de permisos del sistema; puedes retirar el permiso en cualquier momento en los ajustes de tu dispositivo.</li>
+</ul>
+<h2>6. Transferencias internacionales y conservación</h2>
+<p>Nuestros proveedores de servicios tienen su sede en Estados Unidos y pueden tratar datos allí o en otros países. Cuando se aplica el RGPD, las transferencias se basan en las garantías de los proveedores, como el Marco de Privacidad de Datos UE-EE. UU. cuando participan y/o las Cláusulas Contractuales Tipo de la Comisión Europea, según se describe en sus políticas.</p>
+<p>Conservación:</p>
+<ul>
+<li><strong>Datos en el dispositivo</strong>: hasta que los elimines (Ajustes → Datos → Eliminar todos los datos) o desinstales la App.</li>
+<li><strong>RevenueCat</strong>: los registros de compra se conservan mientras sean necesarios para validar y restaurar tus compras y para cumplir obligaciones legales/contables, o hasta que nos pidas eliminarlos.</li>
+<li><strong>Expo</strong>: los registros de solicitudes de actualización se conservan según la política de Expo; Expo indica que los registros de solicitudes sin procesar que contienen el texto de errores de inicio se eliminan a los tres días.</li>
+<li><strong>Correos de soporte</strong>: se eliminan en un plazo de 24 meses tras finalizar la conversación.</li>
+</ul>
+<h2>7. Tus opciones y derechos</h2>
+<ul>
+<li><strong>Eliminar todo en tu dispositivo:</strong> Ajustes → Datos → Eliminar todos los datos (borra los datos del juego, los ajustes y las notificaciones programadas). Desinstalar la App también lo elimina. Las compras permanecen en tu cuenta de App Store / Google Play y pueden restaurarse.</li>
+<li><strong>Notificaciones:</strong> desactívalas en los ajustes de la App o en los de tu dispositivo.</li>
+<li><strong>Compras:</strong> consulta, gestiona o solicita reembolsos desde tu cuenta de App Store o Google Play.</li>
+<li><strong>Datos que tienen nuestros proveedores:</strong> como no sabemos quién eres, normalmente no podemos vincular los datos de los proveedores contigo. Si quieres que accedamos al registro de compra que tiene RevenueCat o lo eliminemos, escríbenos con el <strong>ID de pedido</strong> de tu recibo de Apple o tu número de pedido de Google Play (empieza por &quot;GPA.&quot;); localizaremos y eliminaremos ese registro (después puede que tengas que restaurar los packs de nuevo desde la tienda). Los registros de actualización de Expo solo contienen un ID de cliente aleatorio y normalmente no pueden vincularse contigo.</li>
+</ul>
+<p>Según dónde vivas, puedes tener derecho a acceder, rectificar, suprimir, limitar u oponerte al tratamiento, a la portabilidad de los datos y a presentar una reclamación ante una autoridad de protección de datos. Esto incluye los derechos del RGPD (EEE/Reino Unido), la CCPA/CPRA de California y otras leyes estatales de privacidad de EE. UU., la Ley de Protección de Datos Personales de Vietnam (n.º 91/2025/QH15), la APPI de Japón, la PIPA de Corea y la LGPD de Brasil. Para ejercer cualquier derecho, escribe a <strong><a href="mailto:lt24appmaker@gmail.com">lt24appmaker@gmail.com</a></strong>. Responderemos en el plazo exigido por la ley aplicable (normalmente en 30 días). No te discriminaremos por ejercer tus derechos.</p>
+<p><strong>California / estados de EE. UU.:</strong> En los últimos 12 meses no hemos vendido ni &quot;compartido&quot; (para publicidad conductual entre contextos) información personal, y no lo hacemos. Las categorías tratadas se limitan a identificadores (ID aleatorios de app/cliente, dirección IP), información comercial (historial de compras) e información técnica (datos de actualizaciones fallidas), para los fines empresariales de la sección 4.</p>
+<h2>8. Seguridad</h2>
+<p>Los datos del juego permanecen en el almacenamiento privado de la App en tu dispositivo, protegidos por la propia seguridad de tu dispositivo (código, cifrado). El tráfico de red hacia nuestros proveedores está cifrado (HTTPS). La App no almacena datos de pago. Ningún método es 100 % seguro; mantén protegidos tu dispositivo y tu cuenta de la tienda.</p>
+<h2>9. Menores</h2>
+<p>La App está dirigida al público general y <strong>no está dirigida a menores</strong>. No está en la categoría Niños de App Store ni en el programa Diseñado para familias de Google Play. No recopilamos a sabiendas información personal de menores de 13 años (o de la edad mínima en tu país). Si crees que un menor nos ha enviado información personal (por ejemplo, por correo), contáctanos y la eliminaremos.</p>
+<h2>10. Cambios en esta política</h2>
+<p>Podemos actualizar esta política cuando cambien la App o la ley. Cambiaremos la fecha de &quot;Última actualización&quot; que figura arriba y, en caso de cambios importantes, avisaremos en la App o en su página de la tienda antes de que el cambio entre en vigor.</p>
+<h2>11. Contacto</h2>
+<p>LT24 App Maker — <strong><a href="mailto:lt24appmaker@gmail.com">lt24appmaker@gmail.com</a></strong><br>
+Términos de uso: <a href="terms.html">https://lt24appmaker.github.io/burrow-and-bait/es/terms.html</a> · Soporte: <a href="support.html">https://lt24appmaker.github.io/burrow-and-bait/es/support.html</a></p>
+</main>
+<div class="wrap">
+<nav class="langs" aria-label="Idioma">
+<h2>Idioma</h2>
+<ul>
+<li><a href="../en/privacy.html" lang="en" hreflang="en">English</a></li>
+<li><a href="../vi/privacy.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+<li><a href="../zh-Hans/privacy.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+<li><a href="../zh-Hant/privacy.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+<li><a href="../ja/privacy.html" lang="ja" hreflang="ja">日本語</a></li>
+<li><a href="../ko/privacy.html" lang="ko" hreflang="ko">한국어</a></li>
+<li><a href="../es/privacy.html" lang="es" hreflang="es" aria-current="true">Español</a></li>
+<li><a href="../pt-BR/privacy.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+<li><a href="../fr/privacy.html" lang="fr" hreflang="fr">Français</a></li>
+<li><a href="../de/privacy.html" lang="de" hreflang="de">Deutsch</a></li>
+<li><a href="../it/privacy.html" lang="it" hreflang="it">Italiano</a></li>
+<li><a href="../ru/privacy.html" lang="ru" hreflang="ru">Русский</a></li>
+<li><a href="../ar/privacy.html" lang="ar" hreflang="ar" dir="rtl">العربية</a></li>
+<li><a href="../hi/privacy.html" lang="hi" hreflang="hi">हिन्दी</a></li>
+<li><a href="../id/privacy.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+</ul>
+</nav>
+</div>
+<footer class="site">
+<div class="wrap">
+<p>Última actualización: <time datetime="2026-11-21">21 de noviembre de 2026</time></p>
+<p>Burrow &amp; Bait · LT24 App Maker · <a href="mailto:lt24appmaker@gmail.com">lt24appmaker@gmail.com</a> · <a href="../index.html">Todos los idiomas</a></p>
+</div>
+</footer>
+</body>
+</html>

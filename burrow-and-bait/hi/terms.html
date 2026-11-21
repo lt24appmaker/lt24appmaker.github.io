@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="hi" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#FBF3E2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1E1610" media="(prefers-color-scheme: dark)">
+<title>उपयोग की शर्तें — Burrow &amp; Bait</title>
+<meta name="description" content="उपयोग की शर्तें — Burrow &amp; Bait (LT24 App Maker). अंतिम अपडेट: 2026-11-21.">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/icon-192.png">
+<style>
+:root{color-scheme:light dark;--bg:#FBF3E2;--surface:#FFFBF0;--surface2:#F0E2C8;--text:#3B2619;--muted:#6B5444;--primary:#A4491B;--primary-press:#8A3A12;--on-primary:#FFFBF0;--border:#E0CFAE;--border-strong:#8A7357;--focus:#1B5FB0}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1E1610;--surface:#2B2018;--surface2:#3A2D22;--text:#F3E6CC;--muted:#C2AE92;--primary:#F0A35E;--primary-press:#D98B45;--on-primary:#2B1708;--border:#4A3A2C;--border-strong:#8F7A5E;--focus:#8CC4FF}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:1rem/1.65 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Helvetica Neue",Arial,"Hiragino Sans","Yu Gothic UI","Malgun Gothic","PingFang SC","PingFang TC","Microsoft YaHei","Noto Sans Arabic","Noto Sans Devanagari",sans-serif;overflow-wrap:anywhere}
+a{color:var(--primary);text-decoration:underline;text-underline-offset:.15em}
+a:hover{color:var(--primary-press)}
+a:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:2px}
+.wrap{max-width:46rem;margin:0 auto;padding:0 16px}
+header.site{background:var(--surface);border-bottom:2px solid var(--text)}
+header.site .wrap{display:flex;align-items:center;gap:12px;padding-top:12px;padding-bottom:12px;flex-wrap:wrap}
+header.site img{width:48px;height:48px;border-radius:11px;border:2px solid var(--text);display:block}
+header.site .brand{font-weight:800;font-size:1.15rem;color:var(--text);text-decoration:none;margin-inline-end:auto}
+nav.pages{display:flex;gap:4px 8px;flex-wrap:wrap}
+nav.pages a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border:2px solid var(--border-strong);border-radius:10px;text-decoration:none;color:var(--text);background:var(--bg);font-size:.95rem}
+nav.pages a[aria-current=page]{background:var(--primary);border-color:var(--text);color:var(--on-primary);font-weight:700}
+main{padding:24px 0 8px}
+h1{font-size:1.6rem;line-height:1.25;margin:.2em 0 .6em}
+h2{font-size:1.2rem;line-height:1.3;margin:1.8em 0 .5em}
+p,ul{margin:.7em 0}
+ul{padding-inline-start:1.4em}
+li{margin:.3em 0}
+li>ul{margin:.3em 0}
+.meta{color:var(--muted);font-size:.95rem}
+.table-wrap{overflow-x:auto;margin:1em 0;border:1px solid var(--border-strong);border-radius:10px;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:.92rem;line-height:1.5;background:var(--surface)}
+th,td{padding:9px 10px;border-bottom:1px solid var(--border);vertical-align:top;text-align:start}
+thead th{background:var(--surface2);font-weight:700}
+tbody th{font-weight:600}
+tbody tr:last-child>*{border-bottom:0}
+bdi{white-space:nowrap}
+@media (max-width:44rem){.table-wrap{border:0;overflow:visible}table,tbody{display:block;background:transparent}thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}tr{display:block;margin:0 0 12px;background:var(--surface);border:1px solid var(--border-strong);border-radius:10px;overflow:hidden}tbody th,td{display:block;border-bottom:1px solid var(--border);padding:8px 12px}tbody th{background:var(--surface2);font-weight:700}tbody tr>*:last-child{border-bottom:0}td::before{content:attr(data-label);display:block;font-size:.8rem;font-weight:700;color:var(--muted);margin-bottom:2px}}
+nav.langs{margin:32px 0 8px;padding:16px 0;border-top:1px solid var(--border-strong)}
+nav.langs h2{font-size:1rem;margin:0 0 .5em}
+nav.langs ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:6px 8px}
+nav.langs a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border:1px solid var(--border-strong);border-radius:10px;text-decoration:none;color:var(--text);background:var(--surface)}
+nav.langs a[aria-current=true]{background:var(--surface2);font-weight:700;border-color:var(--text)}
+footer.site{border-top:1px solid var(--border);color:var(--muted);font-size:.9rem;padding:16px 0 32px}
+footer.site p{margin:.3em 0}
+.lede{font-size:1.05rem}
+.lang-list{list-style:none;padding:0;margin:1em 0}
+.lang-list li{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;padding:10px 12px;margin:8px 0;background:var(--surface);border:1px solid var(--border-strong);border-radius:12px}
+.lang-list .name{font-weight:700;min-width:9.5rem;flex:1 1 100%}
+.lang-list a{display:inline-flex;align-items:center;min-height:44px;padding:0 4px}
+@media (min-width:34rem){.lang-list .name{flex:0 0 11rem}}
+@media (max-width:420px){body{font-size:1rem}h1{font-size:1.4rem}}
+@media print{header.site nav,nav.langs{display:none}}
+</style>
+<link rel="alternate" hreflang="en" href="https://lt24appmaker.github.io/burrow-and-bait/en/terms.html">
+<link rel="alternate" hreflang="vi" href="https://lt24appmaker.github.io/burrow-and-bait/vi/terms.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://lt24appmaker.github.io/burrow-and-bait/zh-Hans/terms.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://lt24appmaker.github.io/burrow-and-bait/zh-Hant/terms.html">
+<link rel="alternate" hreflang="ja" href="https://lt24appmaker.github.io/burrow-and-bait/ja/terms.html">
+<link rel="alternate" hreflang="ko" href="https://lt24appmaker.github.io/burrow-and-bait/ko/terms.html">
+<link rel="alternate" hreflang="es" href="https://lt24appmaker.github.io/burrow-and-bait/es/terms.html">
+<link rel="alternate" hreflang="pt-BR" href="https://lt24appmaker.github.io/burrow-and-bait/pt-BR/terms.html">
+<link rel="alternate" hreflang="fr" href="https://lt24appmaker.github.io/burrow-and-bait/fr/terms.html">
+<link rel="alternate" hreflang="de" href="https://lt24appmaker.github.io/burrow-and-bait/de/terms.html">
+<link rel="alternate" hreflang="it" href="https://lt24appmaker.github.io/burrow-and-bait/it/terms.html">
+<link rel="alternate" hreflang="ru" href="https://lt24appmaker.github.io/burrow-and-bait/ru/terms.html">
+<link rel="alternate" hreflang="ar" href="https://lt24appmaker.github.io/burrow-and-bait/ar/terms.html">
+<link rel="alternate" hreflang="hi" href="https://lt24appmaker.github.io/burrow-and-bait/hi/terms.html">
+<link rel="alternate" hreflang="id" href="https://lt24appmaker.github.io/burrow-and-bait/id/terms.html">
+<link rel="alternate" hreflang="x-default" href="https://lt24appmaker.github.io/burrow-and-bait/en/terms.html">
+<link rel="canonical" href="https://lt24appmaker.github.io/burrow-and-bait/hi/terms.html">
+</head>
+<body>
+<header class="site">
+<div class="wrap">
+<img src="../assets/icon-192.png" width="48" height="48" alt="">
+<a class="brand" href="../index.html" lang="en" dir="ltr">Burrow &amp; Bait</a>
+<nav class="pages" aria-label="उपयोग की शर्तें">
+<a href="privacy.html">गोपनीयता नीति</a>
+<a href="terms.html" aria-current="page">उपयोग की शर्तें</a>
+<a href="support.html">सहायता</a>
+</nav>
+</div>
+</header>
+<main class="wrap">
+<h1>उपयोग की शर्तें — Burrow &amp; Bait</h1>
+<p><strong>प्रभावी तिथि: 21 नवंबर 2026</strong> · अंतिम अपडेट: 21 नवंबर 2026</p>
+<p>यह एक अनुवाद है; अंग्रेज़ी संस्करण से किसी भी अंतर की स्थिति में <strong>अंग्रेज़ी संस्करण मान्य होगा</strong>।</p>
+<h2>1. स्वीकृति</h2>
+<p>मोबाइल गेम <strong>Burrow &amp; Bait</strong> (&quot;ऐप&quot;) डाउनलोड या उपयोग करके, आप इन उपयोग की शर्तों और हमारी गोपनीयता नीति से सहमत होते हैं। यदि आप सहमत नहीं हैं, तो कृपया ऐप का उपयोग न करें।</p>
+<p><strong>यदि आपने ऐप Apple App Store से प्राप्त किया है</strong>, तो इसके उपयोग का आपका लाइसेंस Apple के <strong>लाइसेंस प्राप्त एप्लिकेशन के अंतिम उपयोगकर्ता लाइसेंस समझौते</strong> (&quot;मानक EULA&quot;) द्वारा शासित है: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener noreferrer">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>। ये शर्तें ऐप-विशिष्ट जानकारी जोड़ती हैं और मानक EULA के अंतर्गत आपके अधिकारों को कम नहीं करतीं; टकराव होने पर मानक EULA मान्य होगा।<br>
+<strong>यदि आपने ऐप Google Play से प्राप्त किया है</strong>, तो ये शर्तें Google Play की सेवा की शर्तों के साथ लागू होती हैं।</p>
+<h2>2. प्रदाता</h2>
+<p>ऐप <strong>LT24 App Maker</strong> (&quot;हम&quot;) द्वारा उपलब्ध कराया गया है। संपर्क: <strong><a href="mailto:lt24appmaker@gmail.com">lt24appmaker@gmail.com</a></strong>।</p>
+<h2>3. लाइसेंस</h2>
+<p>हम आपको एक व्यक्तिगत, गैर-अनन्य, अहस्तांतरणीय, रद्द किए जा सकने वाला लाइसेंस देते हैं, ताकि आप ऐप का उपयोग अपने स्वयं के गैर-व्यावसायिक मनोरंजन के लिए उन डिवाइसों पर कर सकें जिनके आप स्वामी हैं या जिन्हें आप नियंत्रित करते हैं, जैसा कि उस स्टोर द्वारा अनुमत है जहाँ से आपने इसे प्राप्त किया। जो अधिकार स्पष्ट रूप से नहीं दिए गए हैं वे हमारे और हमारे लाइसेंसदाताओं के पास सुरक्षित हैं। ऐप की कलाकृति, संगीत, पाठ और कोड कॉपीराइट द्वारा सुरक्षित हैं; तृतीय-पक्ष सामग्री उनके अपने लाइसेंसों के तहत उपयोग की गई है (सेटिंग्स → कानूनी → श्रेय देखें)।</p>
+<h2>4. ऐप-में खरीदारी</h2>
+<ul>
+<li>वैकल्पिक सामग्री पैक (जैसे सजावट सेट और सपोर्टर पैक) App Store या Google Play के ज़रिए <strong>एकमुश्त खरीदारी</strong> के रूप में बेचे जाते हैं। ये <strong>सब्सक्रिप्शन नहीं हैं</strong>: ये नवीनीकृत नहीं होते और इन्हें कभी रद्द करने की ज़रूरत नहीं पड़ती।</li>
+<li>कीमतें ऐप में वैसे ही दिखाई जाती हैं जैसे स्टोर उपलब्ध कराता है, आपकी स्थानीय मुद्रा में, और जहाँ स्टोर कर लगाता है वहाँ करों सहित। भुगतान Apple या Google संसाधित करते हैं; हम आपके भुगतान विवरण कभी नहीं देखते।</li>
+<li>खरीदारी आपको <strong>ऐप में सामग्री का उपयोग करने का लाइसेंस</strong> देती है; यह संपत्ति की बिक्री नहीं है, इसका कोई नकद मूल्य नहीं है, और इसे पैसों से नहीं बदला जा सकता।</li>
+<li><strong>सपोर्टर पैक</strong> धन्यवाद संदेश के साथ एक सजावटी वस्तु की खरीदारी है। यह धर्मार्थ दान नहीं है और गेमप्ले नहीं बदलता।</li>
+<li>खरीदारी उस <strong>App Store या Google Play खाते</strong> से जुड़ी होती है जिससे वह की गई थी और उसे किसी अन्य खाते में या Apple और Google प्लेटफ़ॉर्म के बीच <strong>स्थानांतरित नहीं किया जा सकता</strong>। फ़ैमिली शेयरिंग फ़िलहाल उपलब्ध नहीं है।</li>
+<li><strong>खरीदारी पुनः स्थापित करें:</strong> ऐप दोबारा इंस्टॉल करने या उसी स्टोर खाते से साइन-इन किए नए डिवाइस पर जाने के बाद, स्टोर में या सेटिंग्स में <strong>खरीदारी पुनः स्थापित करें</strong> पर टैप करें (इंटरनेट कनेक्शन आवश्यक है)।</li>
+<li><strong>रिफ़ंड</strong> Apple या Google अपनी नीतियों के अनुसार संभालते हैं:
+<ul>
+<li>Apple: <a href="https://support.apple.com/en-us/118223" rel="noopener noreferrer">https://support.apple.com/en-us/118223</a> (reportaproblem.apple.com)</li>
+<li>Google Play: <a href="https://support.google.com/googleplay/answer/2479637?hl=hi" rel="noopener noreferrer">https://support.google.com/googleplay/answer/2479637?hl=hi</a></li>
+</ul>
+<p>इन शर्तों में कुछ भी आपके किसी वैधानिक अधिकार को सीमित नहीं करता, जैसे आपके देश में उपभोक्ता के वापसी के अधिकार। यदि किसी खरीदारी का रिफ़ंड हो जाता है या उसे उलट दिया जाता है, तो संबंधित सामग्री फिर से लॉक हो जाती है; आपकी गेम प्रगति बनी रहती है।</p></li>
+<li>खरीदी गई सामग्री ऐप में तब तक उपलब्ध रहेगी जब तक हम ऐप उपलब्ध कराते हैं। यदि कभी हमें खरीदी गई सामग्री हटानी पड़े, तो हम केवल उतना ही करेंगे जितना कानून और स्टोर के नियम अनुमति देते हैं।</li>
+</ul>
+<h2>5. आपका डेटा और बैकअप</h2>
+<p>ऐप में कोई खाता और क्लाउड सिंक नहीं है। आपकी गेम प्रगति <strong>केवल आपके डिवाइस पर</strong> संग्रहीत होती है। बैकअप रखने की ज़िम्मेदारी आपकी है: बैकअप फ़ाइल सहेजने के लिए <strong>सेटिंग्स → डेटा → निर्यात करें</strong> और उसे किसी अन्य डिवाइस पर पुनः स्थापित करने के लिए <strong>आयात करें</strong> का उपयोग करें। हम खोई या हटाई गई प्रगति को वापस नहीं ला सकते, क्योंकि हमारे पास उसकी कोई प्रति नहीं है। &quot;सारा डेटा हटाएँ&quot; को पूर्ववत नहीं किया जा सकता। विवरण के लिए गोपनीयता नीति देखें।</p>
+<h2>6. स्वीकार्य उपयोग</h2>
+<p>आप सहमत हैं कि आप ये नहीं करेंगे: ऐप या उसकी सामग्री की नकल, संशोधन, वितरण, बिक्री या किराये पर देना; ऐप को रिवर्स-इंजीनियर या डीकंपाइल करना, सिवाय जहाँ इस प्रतिबंध के बावजूद कानून इसकी अनुमति देता है; खरीदारी सत्यापन को दरकिनार करना या उससे छेड़छाड़ करना; या ऐप का गैरकानूनी उपयोग करना। अपनी सेव फ़ाइल या डिवाइस की घड़ी बदलने का असर केवल आपके अपने गेम पर पड़ता है और यह आपके अपने जोखिम पर है।</p>
+<h2>7. अपडेट और उपलब्धता</h2>
+<p>हम बग ठीक करने, सुविधाएँ जोड़ने या बदलने, या स्टोर नियमों और कानूनों का पालन करने के लिए ऐप अपडेट कर सकते हैं। कुछ सुविधाओं (खरीदारी, पुनः स्थापना, अपडेट) के लिए इंटरनेट कनेक्शन चाहिए। हम ऐप देना बंद कर सकते हैं; ऐसा होने पर पहले से इंस्टॉल की गई प्रतियाँ ऑफ़लाइन चलती रह सकती हैं, लेकिन हम इसकी गारंटी नहीं दे सकते।</p>
+<h2>8. अस्वीकरण</h2>
+<p>ऐप एक गेम है जो <strong>&quot;जैसा है&quot; और &quot;जैसा उपलब्ध है&quot;</strong> आधार पर दिया जाता है। कानून द्वारा अनुमत सीमा तक, हम यह गारंटी नहीं देते कि यह निर्बाध, त्रुटि-मुक्त या हर डिवाइस के साथ संगत होगा। ऐप के जानवर काल्पनिक हैं; गेम के &quot;जाल&quot; और &quot;चारा&quot; कोमल गेम मैकेनिक्स हैं और असली वन्यजीवों के लिए मार्गदर्शन नहीं हैं।</p>
+<h2>9. दायित्व की सीमा</h2>
+<p>कानून द्वारा अनुमत सीमा तक, हम अप्रत्यक्ष, आकस्मिक या परिणामी क्षति, या गेम डेटा के नुकसान के लिए उत्तरदायी नहीं हैं। ऐप से संबंधित किसी भी दावे के लिए हमारा कुल दायित्व दावे से पहले के 12 महीनों में ऐप और ऐप-में खरीदारी के लिए आपके द्वारा चुकाई गई राशि तक सीमित है। इन शर्तों में कुछ भी ऐसा दायित्व नहीं हटाता जिसे कानून द्वारा नहीं हटाया जा सकता (उदाहरण के लिए लापरवाही से हुई मृत्यु या व्यक्तिगत चोट, धोखाधड़ी, या आपके अनिवार्य उपभोक्ता अधिकार)।</p>
+<h2>10. इन शर्तों में बदलाव</h2>
+<p>हम इन शर्तों को अपडेट कर सकते हैं। हम &quot;अंतिम अपडेट&quot; तिथि बदल देंगे और, महत्वपूर्ण बदलावों के लिए, ऐप में या स्टोर पेज पर सूचना देंगे। बदलाव लागू होने के बाद ऐप का उपयोग जारी रखने का अर्थ है कि आप उन्हें स्वीकार करते हैं।</p>
+<h2>11. लागू कानून और संपर्क</h2>
+<p>ये शर्तें वियतनाम के कानूनों द्वारा शासित हैं, बिना आपको उस देश के अनिवार्य उपभोक्ता कानूनों की सुरक्षा से वंचित किए जहाँ आप रहते हैं, और जहाँ कानून अनुमति दे वहाँ आप अपने स्थानीय न्यायालयों में दावा कर सकते हैं। प्रश्न: <strong><a href="mailto:lt24appmaker@gmail.com">lt24appmaker@gmail.com</a></strong> · गोपनीयता नीति: <a href="privacy.html">https://lt24appmaker.github.io/burrow-and-bait/hi/privacy.html</a> · सहायता: <a href="support.html">https://lt24appmaker.github.io/burrow-and-bait/hi/support.html</a></p>
+</main>
+<div class="wrap">
+<nav class="langs" aria-label="भाषा">
+<h2>भाषा</h2>
+<ul>
+<li><a href="../en/terms.html" lang="en" hreflang="en">English</a></li>
+<li><a href="../vi/terms.html" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+<li><a href="../zh-Hans/terms.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li>
+<li><a href="../zh-Hant/terms.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
+<li><a href="../ja/terms.html" lang="ja" hreflang="ja">日本語</a></li>
+<li><a href="../ko/terms.html" lang="ko" hreflang="ko">한국어</a></li>
+<li><a href="../es/terms.html" lang="es" hreflang="es">Español</a></li>
+<li><a href="../pt-BR/terms.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li>
+<li><a href="../fr/terms.html" lang="fr" hreflang="fr">Français</a></li>
+<li><a href="../de/terms.html" lang="de" hreflang="de">Deutsch</a></li>
+<li><a href="../it/terms.html" lang="it" hreflang="it">Italiano</a></li>
+<li><a href="../ru/terms.html" lang="ru" hreflang="ru">Русский</a></li>
+<li><a href="../ar/terms.html" lang="ar" hreflang="ar" dir="rtl">العربية</a></li>
+<li><a href="../hi/terms.html" lang="hi" hreflang="hi" aria-current="true">हिन्दी</a></li>
+<li><a href="../id/terms.html" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+</ul>
+</nav>
+</div>
+<footer class="site">
+<div class="wrap">
+<p>अंतिम अपडेट: <time datetime="2026-11-21">21 नवंबर 2026</time></p>
+<p>Burrow &amp; Bait · LT24 App Maker · <a href="mailto:lt24appmaker@gmail.com">lt24appmaker@gmail.com</a> · <a href="../index.html">सभी भाषाएँ</a></p>
+</div>
+</footer>
+</body>
+</html>
